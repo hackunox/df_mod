@@ -1,0 +1,22 @@
+[gamelog]
+# Ruta absoluta o relativa a gamelog.txt
+path = "C:/Program Files (x86)/Steam/steamapps/common/Dwarf Fortress/gamelog.txt"
+# Intervalo de sondeo (segundos)
+poll_interval = 0.5
+
+[openai]
+api_key = "sk-..."
+model = "gpt-4o-mini"
+temperature = 0.7
+max_tokens = 160
+
+[voice]
+engine = "sapi5"        # Windows. En Linux prueba "espeak"
+voice_id = "Hernan"     # Usa pyttsx3.voice.search para listar disponibles
+rate = 180              # Palabras por minuto
+
+[narration]
+repeat_threshold = 3     # ¿cuántas repeticiones antes de sugerir solución?
+
+[stream]
+short_message_length = 200
